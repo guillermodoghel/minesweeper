@@ -7,11 +7,11 @@ My version!
 
 * [Default](#default)
 
-  * [https://minesweeper.doghel.com.ar/minesweeper/status?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc](#1-https:minesweeperdoghelcomarminesweeperstatus?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc)
-  * [https://minesweeper.doghel.com.ar/minesweeper/mark](#2-https:minesweeperdoghelcomarminesweepermark)
-  * [https://minesweeper.doghel.com.ar/minesweeper/play](#3-https:minesweeperdoghelcomarminesweeperplay)
-  * [https://minesweeper.doghel.com.ar/minesweeper/init](#4-https:minesweeperdoghelcomarminesweeperinit)
-  * [https://minesweeper.doghel.com.ar/ping](#5-https:minesweeperdoghelcomarping)
+  * [http://localhost:8080/minesweeper/status?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc](#1-https:minesweeperdoghelcomarminesweeperstatus?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc)
+  * [http://localhost:8080/minesweeper/mark](#2-https:minesweeperdoghelcomarminesweepermark)
+  * [http://localhost:8080/minesweeper/play](#3-https:minesweeperdoghelcomarminesweeperplay)
+  * [http://localhost:8080/minesweeper/init](#4-https:minesweeperdoghelcomarminesweeperinit)
+  * [http://localhost:8080/ping](#5-https:minesweeperdoghelcomarping)
 
 
 --------
@@ -21,7 +21,7 @@ My version!
 
 
 
-### 1. https://minesweeper.doghel.com.ar/minesweeper/status?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc
+### 1. http://localhost:8080/minesweeper/status?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc
 
 
 
@@ -30,7 +30,7 @@ My version!
 ```bash
 Method: GET
 Type: 
-URL: https://minesweeper.doghel.com.ar/minesweeper/status
+URL: http://localhost:8080/minesweeper/status
 ```
 
 
@@ -47,7 +47,7 @@ URL: https://minesweeper.doghel.com.ar/minesweeper/status
 ***Responses:***
 
 
-Status: https://minesweeper.doghel.com.ar/minesweeper/status?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc | Code: 200
+Status: http://localhost:8080/minesweeper/status?game_id=ec30fb3d-5f7e-4bc4-9724-f39f0498e45c&token=07d47f41-ed9d-4ee5-95cc-c2699cab4abc | Code: 200
 
 
 
@@ -691,7 +691,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/status?game_id=ec30fb3d-5f
 
 
 
-### 2. https://minesweeper.doghel.com.ar/minesweeper/mark
+### 2. http://localhost:8080/minesweeper/mark
 
 
 
@@ -700,7 +700,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/status?game_id=ec30fb3d-5f
 ```bash
 Method: POST
 Type: RAW
-URL: https://minesweeper.doghel.com.ar/minesweeper/mark
+URL: http://localhost:8080/minesweeper/mark
 ```
 
 
@@ -729,7 +729,7 @@ URL: https://minesweeper.doghel.com.ar/minesweeper/mark
 ***Responses:***
 
 
-Status: https://minesweeper.doghel.com.ar/minesweeper/mark | Code: 200
+Status: http://localhost:8080/minesweeper/mark | Code: 200
 
 
 
@@ -1373,7 +1373,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/mark | Code: 200
 
 
 
-### 3. https://minesweeper.doghel.com.ar/minesweeper/play
+### 3. http://localhost:8080/minesweeper/play
 
 
 
@@ -1382,7 +1382,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/mark | Code: 200
 ```bash
 Method: POST
 Type: RAW
-URL: https://minesweeper.doghel.com.ar/minesweeper/play
+URL: http://localhost:8080/minesweeper/play
 ```
 
 
@@ -1410,7 +1410,7 @@ URL: https://minesweeper.doghel.com.ar/minesweeper/play
 ***Responses:***
 
 
-Status: https://minesweeper.doghel.com.ar/minesweeper/play | Code: 200
+Status: http://localhost:8080/minesweeper/play | Code: 200
 
 
 
@@ -2054,7 +2054,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/play | Code: 200
 
 
 
-### 4. https://minesweeper.doghel.com.ar/minesweeper/init
+### 4. http://localhost:8080/minesweeper/init
 
 
 
@@ -2063,7 +2063,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/play | Code: 200
 ```bash
 Method: POST
 Type: RAW
-URL: https://minesweeper.doghel.com.ar/minesweeper/init
+URL: http://localhost:8080/minesweeper/init
 ```
 
 
@@ -2090,7 +2090,7 @@ URL: https://minesweeper.doghel.com.ar/minesweeper/init
 ***Responses:***
 
 
-Status: https://minesweeper.doghel.com.ar/minesweeper/init | Code: 201
+Status: http://localhost:8080/minesweeper/init | Code: 201
 
 
 
@@ -2734,7 +2734,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/init | Code: 201
 
 
 
-### 5. https://minesweeper.doghel.com.ar/ping
+### 5. http://localhost:8080/ping
 
 
 
@@ -2743,7 +2743,7 @@ Status: https://minesweeper.doghel.com.ar/minesweeper/init | Code: 201
 ```bash
 Method: GET
 Type: 
-URL: https://minesweeper.doghel.com.ar/ping
+URL: http://localhost:8080/ping
 ```
 
 
@@ -2751,7 +2751,7 @@ URL: https://minesweeper.doghel.com.ar/ping
 ***Responses:***
 
 
-Status: https://minesweeper.doghel.com.ar/ping | Code: 200
+Status: http://localhost:8080/ping | Code: 200
 
 
 
@@ -2763,4 +2763,4 @@ pong
 
 ---
 [Back to top](#minesweeper)
-> Made with &#9829; by [thedevsaddam](https://github.com/thedevsaddam) | Generated at: 2019-11-17 02:46:45 by [docgen](https://github.com/thedevsaddam/docgen)
+> Made with &#9829; by guillermodoghel
