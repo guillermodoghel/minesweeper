@@ -2,7 +2,7 @@ package api
 
 import (
 	"fmt"
-	"github.com/guillermodoghel/minesweeper-API/pkg/rest"
+	"github.com/guillermodoghel/minesweeper/pkg/rest"
 	"github.com/pborman/uuid"
 	"math/rand"
 	"time"

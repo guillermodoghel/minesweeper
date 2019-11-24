@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/guillermodoghel/minesweeper-API/pkg/log"
-	"github.com/guillermodoghel/minesweeper-API/pkg/rest"
+	"github.com/guillermodoghel/minesweeper/pkg/log"
+	"github.com/guillermodoghel/minesweeper/pkg/rest"
 
 	"net/http"
 	"time"

@@ -1,7 +1,7 @@
 package minesweeper
 
 import (
-	"github.com/guillermodoghel/minesweeper-API/internal/api"
+	"github.com/guillermodoghel/minesweeper/internal/api"
 )
 
 type Persistence struct {

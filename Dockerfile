@@ -6,8 +6,8 @@ RUN apt-get upgrade -y
 ENV GIN_MODE=release
 
 RUN mkdir /app
-COPY . /usr/local/go/src/github.com/guillermodoghel/minesweeper-API/
+COPY . /usr/local/go/src/github.com/guillermodoghel/minesweeper/
 
-CMD go run /usr/local/go/src/github.com/guillermodoghel/minesweeper-API/cmd
+CMD go run /usr/local/go/src/github.com/guillermodoghel/minesweeper/cmd
 
 EXPOSE 8080

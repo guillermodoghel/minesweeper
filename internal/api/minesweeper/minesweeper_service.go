@@ -1,8 +1,8 @@
 package minesweeper
 
 import (
-	"github.com/guillermodoghel/minesweeper-API/internal/api"
-	"github.com/guillermodoghel/minesweeper-API/pkg/rest"
+	"github.com/guillermodoghel/minesweeper/internal/api"
+	"github.com/guillermodoghel/minesweeper/pkg/rest"
 )
 
 type minesweeperService struct {

@@ -1,8 +1,8 @@
 package local_kvs
 
 import (
-	"github.com/guillermodoghel/minesweeper-API/internal/api"
-	"github.com/guillermodoghel/minesweeper-API/internal/api/minesweeper"
+	"github.com/guillermodoghel/minesweeper/internal/api"
+	"github.com/guillermodoghel/minesweeper/internal/api/minesweeper"
 	"github.com/guillermodoghel/skv"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	"github.com/guillermodoghel/minesweeper-API/pkg/rest"
+	"github.com/guillermodoghel/minesweeper/pkg/rest"
 	"net/http"
 )
 

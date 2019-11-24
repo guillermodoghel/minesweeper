@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/guillermodoghel/minesweeper-API/internal/server"
-	"github.com/guillermodoghel/minesweeper-API/internal/server/minesweeper"
-	"github.com/guillermodoghel/minesweeper-API/pkg/log"
+	"github.com/guillermodoghel/minesweeper/internal/server"
+	"github.com/guillermodoghel/minesweeper/internal/server/minesweeper"
+	"github.com/guillermodoghel/minesweeper/pkg/log"
 	"github.com/jpmrno/go-meli-toolkit/goutils/logger"
 )
 

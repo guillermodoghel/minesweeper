@@ -2,9 +2,9 @@ package minesweeper
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/guillermodoghel/minesweeper-API/internal/api"
-	"github.com/guillermodoghel/minesweeper-API/internal/server"
-	"github.com/guillermodoghel/minesweeper-API/pkg/rest"
+	"github.com/guillermodoghel/minesweeper/internal/api"
+	"github.com/guillermodoghel/minesweeper/internal/server"
+	"github.com/guillermodoghel/minesweeper/pkg/rest"
 	"net/http"
 )
 
